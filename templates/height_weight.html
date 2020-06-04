@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<!-- Form
+	====================== -->
+	{% extends 'base.html' %}
+	{% block content %}
+	<section id='form'>
+		<div class="container">
+			<h1>Height Weight Prediction</h1>
+
+			<form action="" method="post">
+				<div class="card">
+					<div class="card-body">
+						<label>Gender</label>
+						<input type="text" class="form-control" id='gender' placeholder="Input Your Gender" required="required">
+						<small class="form-text text-muted">1 for male and 0 for female.</small>
+					</div>
+					<div class="card-body">
+						<label>Height</label>
+						<input type="text" class="form-control" id='height' placeholder="Input Your Height" required="required">
+						<small class="form-text text-muted">Please input your height in 'Inchs'.</small>
+					</div>
+					<button type="submit">Predict Weight</button>
+				</div>
+			</form>
+			{{ weights }}
+		</div>
+	</section>
+<!-- End -->
+
+{% endblock %}

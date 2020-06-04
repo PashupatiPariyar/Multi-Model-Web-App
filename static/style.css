@@ -1,0 +1,95 @@
+body{
+
+	background-color: #f3f3f3;
+
+}
+
+/* Global Button */
+
+button{
+
+	background: none;
+	border: 2px solid;
+	border-color: #002366;
+	color:  #002366;
+	line-height: 1;
+	margin: 0.5em;
+	padding: 1em 2em;
+	
+}
+
+button:hover{
+
+	background-color: #002366;
+	color: #fff;
+
+}
+
+/*End*/
+
+/* ------------------Nav bar--------- */
+#header{
+
+	background-color: #002366;
+
+}
+
+#header ul{
+
+	margin-left: 200px;
+
+}
+
+#header a{
+
+	color: #fff;
+	font-size: 20PX;
+
+}
+/* End */
+
+/* Model Card Container */
+
+#card{
+
+	margin-top: 50px;
+
+}
+
+/* End */
+
+/* Footer */
+
+#footer{
+
+	background-color: #1f1e1e;
+	color: #fff;
+	font-family: arial;
+	margin-top: 50px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+
+}
+
+#footer a{
+	color: #fff;
+}
+
+#footer hr{
+	color: #fff;
+}
+
+/* End */
+
+/*Form*/
+
+#form {
+
+	margin-top: 50px;
+ 
+}
+
+#form h1{
+	text-align: center;
+}
+/* End */
