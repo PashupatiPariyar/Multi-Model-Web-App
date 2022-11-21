@@ -17,4 +17,4 @@ matplotlib>=1.4.3
 pandas>=0.19
 keras==2.4.3
 opencv-python==4.2.0.32
-tensorflow==2.2.0
+tensorflow==2.9.3
